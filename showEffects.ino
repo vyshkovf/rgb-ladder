@@ -13,6 +13,8 @@ void drawStepEffect(uint8_t effect, int step) {
 }
 #endif
 
+// просто попробовать изменение сделать
+
 #if (USE_RAILING == 1)
 void drawRailingEffect(uint8_t effect, int led) {
   uint8_t brightness = (britnessVal1 + britnessVal2) / 2;
